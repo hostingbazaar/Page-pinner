@@ -10,10 +10,16 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["contentScript.js"]
+      "js": ["asset/js/contentScript.js"]
     }
   ],
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+
+  "icons": {
+      "16": "asset/images/icons/icon16.png",
+      "48": "asset/images/icons/icon48.png",
+      "128": "asset/images/icons/icon128.png"
+    }
 }

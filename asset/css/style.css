@@ -1,0 +1,39 @@
+.ext-body{
+    width: 400px;
+    height: 400px;
+}
+.login-bg{
+    background-color: #a60056;
+}
+.load-img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-top: 180px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-family:inherit;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.login-card{
+    padding: 20px;
+}
+
+.login-btn{
+    background-color: #b7005c !important;
+    border: none !important;
+}
+
+.route-newacc{
+    color: aliceblue !important;
+    text-align: center !important;
+    margin-bottom: 5px !important;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
