@@ -79,3 +79,74 @@ height: 70px;
 .case{
     text-transform: capitalize;
 }
+
+.tdesign{
+    color: #000 !important;
+}
+
+.white{
+    color: #fff !important;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.set-area-view{
+    width: 800px;
+    height: 550px;
+}
+
+.search-input{
+    margin-left: 145px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #a60056;
+    
+}
+
+.search-btn{
+    background: #a60056;
+    color: white;
+    border: 1px solid black;
+}
+
+.nodata{
+    width: 30%;
+    height: 30%;
+}  
+
+.prev{
+    float: left;
+    margin-left: 20px;
+}
+
+.next{
+    float: right;
+    margin-right: 20px;
+}
+
+.setpn-btn{
+    border: none;
+    background: #a60056;
+    color: white;
+    font-weight: 500
+}
+
+.back-icon{
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.back-link{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pagination{
+    color: #fff;
+    margin-left: 21px;
+}

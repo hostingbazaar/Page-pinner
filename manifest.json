@@ -5,7 +5,9 @@
   "description": "Extracts the current website URL.",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "tabs"
+
   ],
   "content_scripts": [
     {

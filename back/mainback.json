@@ -5,7 +5,8 @@
     "description": "Extracts the current website URL.",
     "permissions": [
       "storage",
-      "activeTab"
+      "activeTab",
+      "tabs"
     ],
         "browser_action": {
       "default_popup": "popup.html"

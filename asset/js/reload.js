@@ -16,3 +16,16 @@ chrome.tabs.query({
 
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get a reference to the button
+    const openButton = document.getElementById("open-button");
+  
+    // Add a click event listener to the button
+    openButton.addEventListener("click", function() {
+      // Open a new tab with the extension's HTML file
+      chrome.tabs.create({ url: chrome.runtime.getURL("view.html") });
+    });
+  });
+  
