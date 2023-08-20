@@ -1,9 +1,3 @@
-chrome.storage.local.get("key", result => {
-    var retrievedValue = result.key;
-    document.getElementById("token").innerHTML = result.key;
-});
-
-
 const destroy_session = document.getElementById("delete");
 destroy_session.addEventListener("click", function () {
 
@@ -14,6 +8,8 @@ destroy_session.addEventListener("click", function () {
   }
 
   console.log("Session value removed.");
+   //redirect location//
+   window.location.replace("popup.html");
 
 });
 

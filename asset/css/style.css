@@ -17,7 +17,6 @@
     font-weight: 900;
     text-align: center;
     margin-top: 20px;
-    font-size: 38px;
 }
 
 .login-card{
@@ -36,4 +35,47 @@
     text-decoration: none;
     font-size: 22px;
     font-weight: 400;
+}
+
+.input-alert{
+    color: #a60056;
+}
+
+.hello-label{
+    color: white;
+    margin-top: -7px;
+    font-weight: 800;
+}
+
+.flr{
+    font-size: 38px;
+}
+
+
+.fdash{
+    font-size: 20px;
+}
+
+.add-container{
+    padding: 40px;
+    margin-top: -37px;
+}
+.textarea-height{
+height: 70px;
+}
+.view-btn{
+    margin-top: -8px;
+    float: right;
+    background: #a60056;
+    color: white;
+    border: 1px solid white;
+}
+.logout{
+    font-size: 13px;
+    font-weight: 400;
+    color: aliceblue;
+    text-decoration: none;
+}
+.case{
+    text-transform: capitalize;
 }
